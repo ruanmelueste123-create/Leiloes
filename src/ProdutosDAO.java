@@ -16,6 +16,10 @@ import java.util.ArrayList;
 
 
 public class ProdutosDAO {
+
+    static void venderProduto(String id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     Connection conn;
     PreparedStatement prep;
@@ -46,6 +50,8 @@ public class ProdutosDAO {
         JOptionPane.showMessageDialog(null, "Erro ao vender produto");
     }
     }
+
+    
         
     }
 
